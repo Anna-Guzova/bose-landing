@@ -1,5 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
+  font-family: 'Inter', sans-serif;
 }
 
 *,
@@ -49,5 +54,14 @@ ul {
   display: flex;
   gap: 32px;
   flex-direction: column;
+}
+
+.menu__link {
   text-transform: uppercase;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  color: #292929;
 }
